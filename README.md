@@ -1,6 +1,10 @@
 Experiments with Spring Boot, Maven verify plugin, Integration tests and Spock
 
 
+## How to run
+
+    mvn verify
+
 ## Pointers to documentation
 Mocking is explained in 
 
