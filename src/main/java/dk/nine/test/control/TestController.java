@@ -16,7 +16,6 @@ public class TestController {
   public TestController(GithubUserService githubUserService, Datastore store) {
     this.githubUserService = githubUserService;
     this.store = store;
-    System.out.println("*** CONTROLLER STARTING ***");
   }
 
   public void doStuff() {
