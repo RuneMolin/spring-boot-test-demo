@@ -17,12 +17,7 @@ public class HttpTrigger {
 
   @RequestMapping(path = "/process")
   void trigger() {
-    Thread thread = new Thread(new Runnable() {
-      @Override
-      public void run() {
-        controller.doStuff();
-      }
-    });
+    Thread thread = new Thread(() -> controller.doStuff());
 
     thread.setName("HTTP trigger");
     thread.setDaemon(true);

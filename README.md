@@ -1,5 +1,11 @@
 Experiments with Spring Boot, Maven verify plugin, Integration tests and Spock
 
+
+## Pointers to documentation
+Mocking is explained in 
+
+http://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html#boot-features-testing-spring-boot-applications-mocking-beans
+
 ## Hard learned lessons
 
 ### failsafe plugin
