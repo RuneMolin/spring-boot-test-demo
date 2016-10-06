@@ -11,7 +11,7 @@ http://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-test
 ### failsafe plugin
 Using the plugin dependency management of spring-boot-maven-plugin is advisable.
 
-Otherwise, you may end up with a newer version of the failsafe plugin on run into:
+Otherwise, you may end up with a newer version of the failsafe plugin and run into:
 
 https://github.com/spring-projects/spring-boot/issues/6254
 
