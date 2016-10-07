@@ -10,6 +10,10 @@ Mocking is explained in
 
 http://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html#boot-features-testing-spring-boot-applications-mocking-beans
 
+
+See <https://github.com/spockframework/spock/issues/624> about plans for better support in Spock
+for Spring Boot mocking
+
 ## Hard learned lessons
 
 ### failsafe plugin
